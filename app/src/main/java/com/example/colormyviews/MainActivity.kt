@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
                 findViewById(R.id.box_four_text),findViewById(R.id.box_five_text),findViewById(R.id.constraint_layout),
                 findViewById(R.id.red_button),findViewById(R.id.yellow_button),findViewById(R.id.green_button))
 
-        for(item in clickableViews){
+        for(item in clickableViews) {
             item.setOnClickListener { makeColored(it) }
         }
     }
